@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Suporte</title>
+</head>
+<body>
+    <section>
+        <nav class="side-nav">
+            <div class="menu-icon" onclick="toggleNav()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="institucional.html">Institucional</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+             </ul>
+        </nav>
+    </section>
+    
+    <body>
+        <div class="suporte">  
+            <h1>Suporte</h1>
+            <form action="/suporte" method="POST">
+                <label for="fname">Nome:</label>
+                <input type="text" id="nome" name="nome" ><br>
+                <br>
+        
+                <label for="fname">Email:</label>
+                <input type="text" id="email" name="email" ><br>
+                <br>
+        
+                <label for="fname">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" ><br>
+                <br>
+        
+                <textarea id="mensagem" placeholder="Mensagem ao suporte"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+   
+
+</body>
+</html>
