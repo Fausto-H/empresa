@@ -4,6 +4,7 @@ FROM nginx:alpine
 # Copie os arquivos do seu projeto para o diretório de conteúdo do nginx
 COPY index.html /usr/share/nginx/html
 COPY institucional.html /usr/share/nginx/html
+COPY suporte.html /usr/share/nginx/html
 COPY styles.css /usr/share/nginx/html
 COPY logo.png /usr/share/nginx/html
 COPY serviço1.png /usr/share/nginx/html

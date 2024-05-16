@@ -28,7 +28,7 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    transition: width 0.3s ease; /* Transição suave para a largura */
+    transition: width 1s ease; /* Transição suave para a largura */
     overflow: hidden;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .side-nav a:hover {
-    background-color: #550000bb; /* Alterar cor de fundo quando o mouse passa sobre o item */
+    background-color: #7c0000d5; /* Alterar cor de fundo quando o mouse passa sobre o item */
 }
 
 
@@ -106,17 +106,17 @@ body {
 }
 
 .servico1{
-    background-image: url('/serviço1.png'); /*imagem usada*/
+    background-image: url('./serviço1.png'); /*imagem usada*/
     background-size: contain; /* dimensionar a imagem de fundo */
 }
 
 .servico2{
-    background-image: url('/serviço2.png'); /*imagem usada*/
+    background-image: url('./serviço2.png'); /*imagem usada*/
     background-size: contain; /* dimensionar a imagem de fundo */
 }
 
 .servico3{
-    background-image: url('/serviço3.png'); /*imagem usada*/
+    background-image: url('./serviço3.png'); /*imagem usada*/
     background-size: contain; /* dimensionar a imagem de fundo */
 }
 
@@ -229,7 +229,7 @@ footer {
     margin: 0 auto;
     background-color: #2c2c2c;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -243,7 +243,7 @@ footer {
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #5a5a5a;
-    border-radius: 4px;
+    border-radius: 5px;
     resize: none; 
 }
 
@@ -259,13 +259,14 @@ footer {
 .suporte input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #525252;
+    background-color: #424242;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .suporte input[type="submit"]:hover {
-    background-color: #a0a0a0;
+    background-color: #acacac;
+    color: #000000;
 }
